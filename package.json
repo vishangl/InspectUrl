@@ -1,0 +1,24 @@
+{
+  "name": "inspecturl",
+  "version": "0.0.1",
+  "description": "A simple url inspect",
+  "main": "main.js",
+  "scripts": {
+    "vishang": "node --watch main.js",
+    "test": "npm vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vishangl/InspectUrl.git"
+  },
+  "author": "vishang lad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishangl/InspectUrl/issues"
+  },
+  "homepage": "https://github.com/vishangl/InspectUrl#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "validator": "^13.12.0"
+  }
+}
